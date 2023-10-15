@@ -1,5 +1,5 @@
 function createRandomEmoji() {
-    const emojis = ['🐯', '🐻']; // Add more emoji symbols as needed
+    const emojis = ['🐯', '🐻', '🐶']; // Add more emoji symbols as needed
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     return randomEmoji;
 }
